@@ -1,0 +1,77 @@
+.layout{
+    width:440px;
+    height: 384px;
+    border:3px solid #000;
+    margin-left: 4em;
+    float: left;
+}
+.layout>button{
+    margin-left: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    line-height: 2em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.layout1{
+    width:440px;
+    height: 384px;
+    border:3px solid #000;
+    margin-left: 2em;
+    float: left;
+}
+
+.layout1>button{
+    margin-left: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    line-height: 2em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+.layout2{
+    width:440px;
+    height: 384px;
+    border:3px solid #000;
+    margin-left: 4em;
+    float: left;
+    margin-top: 1em;
+}
+
+.layout2>button{
+    margin-left: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    line-height: 2em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+.layout3{
+    width:440px;
+    height: 384px;
+    border:3px solid #000;
+    margin-left: 2em;
+    float: left;
+    margin-top: 1em;
+}
+
+.layout3>button{
+    margin-left: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    line-height: 2em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+.circle{
+    height: 35px;
+  width: 35px;
+  border:2px solid #000;
+  border-radius: 50%;
+  position: relative;
+  top:-180px;
+  left:154px;
+  text-align:center;
+}
+

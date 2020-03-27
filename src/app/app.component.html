@@ -1,0 +1,41 @@
+<h1 class="text-center">Angular app</h1>
+<!-- <ul>
+  <li *ngFor="let user of users">{{user}}</li>
+</ul> -->
+<div class="wrapper">
+<div class="layout">
+  <button (click)="toggleShow()">click me1</button>
+  <button (click)="toggleShow1()">click me2</button>
+  <button (click)="toggleShow2()">click me3</button>
+  <button (click)="toggleShow3()">click me4</button>
+  <div class="circle">1</div>
+  </div>
+
+
+  <div  class="layout1" *ngIf="show">
+    <button (click)="change()">click me1</button>
+    <button (click)="change()">click me2</button>
+    <button (click)="change()">click me3</button>
+    <button (click)="change()">click me4</button>
+    <div class="circle">2</div>
+    </div>
+
+    <div class="layout2" *ngIf="show1">
+      <button (click)="change()">click me1</button>
+      <button (click)="change()">click me2</button>
+      <button (click)="change()">click me3</button>
+      <button (click)="change()">click me4</button>
+      <div class="circle">3</div>
+      </div>
+    
+    
+      <div  class="layout3" *ngIf="show2">
+        <button (click)="change()">click me1</button>
+        <button (click)="change()">click me2</button>
+        <button (click)="change()">click me3</button>
+        <button (click)="change()">click me4</button>
+        <div class="circle">4</div>
+        </div>
+    
+  
+    
